@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-RUN cat /etc/apt/apt.conf.d/90assumeyes && echo $PATH
+RUN echo $PATH
 
 WORKDIR /azure-pipelines
 
