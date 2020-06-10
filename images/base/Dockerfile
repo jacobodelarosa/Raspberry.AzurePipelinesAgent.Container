@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-RUN echo $PATH
+RUN apk add --no-cache --upgrade bash
 
 WORKDIR /azure-pipelines
 
